@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="85dp"
+
+    android:paddingLeft="3dp">
+
+    <ImageView
+        android:id="@+id/question_personPic"
+        android:layout_width="80dp"
+        android:layout_height="76dp"
+        android:layout_marginTop="5dp"
+        android:background="@mipmap/userpic" />
+
+    <TextView
+        android:id="@+id/tv_question_author"
+        android:layout_width="130dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_vertical"
+        android:layout_marginTop="5dp"
+        android:layout_toRightOf="@+id/question_personPic"
+        android:text="jack"
+        android:textSize="20sp" />
+
+    <TextView
+        android:id="@+id/tv_question_title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_toRightOf="@+id/tv_question_author"
+        android:paddingTop="6dp"
+        android:text="标题:"
+        android:textSize="16sp" />
+
+    <TextView
+        android:id="@+id/tv_question_titlecontent"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_toRightOf="@+id/tv_question_title"
+        android:paddingTop="6dp"
+        android:text="标题1"
+        android:textSize="16sp" />
+
+    <TextView
+        android:id="@+id/tv_question_context"
+        android:layout_width="match_parent"
+        android:layout_height="42sp"
+        android:layout_below="@+id/tv_question_author"
+        android:layout_marginLeft="80dp"
+        android:text="neirongsddddd.."
+        android:textColor="#aacccccc"
+        android:textSize="20sp" />
+
+    <TextView
+        android:id="@+id/tv_question_date"
+        android:layout_width="wrap_content"
+        android:layout_height="15sp"
+        android:layout_alignParentRight="true"
+        android:layout_below="@+id/tv_question_context"
+        android:layout_marginRight="8dp"
+        android:layout_marginBottom="2dp"
+        android:text="1987-05-12" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:layout_alignParentBottom="true"
+        android:background="#2F4F4F" />
+
+
+</RelativeLayout>
+
+
+    <!--<?xml version="1.0" encoding="utf-8"?>--><!--<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"--><!--android:layout_width="match_parent"--><!--android:layout_height="100dp"--><!--android:orientation="vertical"--><!--android:paddingLeft="6dp">-->
+
+    <!--<RelativeLayout--><!--android:layout_width="match_parent"--><!--android:layout_height="wrap_content"--><!--android:orientation="horizontal"--><!--android:paddingTop="10dp">-->
+
+    <!--<TextView--><!--android:id="@+id/tv_question_id"--><!--android:layout_width="wrap_content"--><!--android:layout_height="wrap_content"--><!--android:text="姓名id"--><!--android:textSize="20sp" />-->
+
+    <!--<TextView--><!--android:id="@+id/tv_question_date"--><!--android:layout_width="wrap_content"--><!--android:layout_height="wrap_content"--><!--android:layout_alignParentRight="true"--><!--android:layout_marginRight="10dp"--><!--android:text="2010-1-1 10:23"--><!--android:textSize="16sp" />-->
+
+    <!--</RelativeLayout>-->
+
+
+    <!--<TextView--><!--android:id="@+id/tv_question_context"--><!--android:layout_width="match_parent"--><!--android:layout_height="wrap_content"--><!--android:text="neirongewwwwwwwwwwwww....."--><!--android:textColor="#aacccccc"--><!--android:textSize="20sp" />-->
+
+    <!--<RelativeLayout--><!--android:layout_width="match_parent"--><!--android:layout_height="match_parent"--><!--android:orientation="horizontal"--><!--android:paddingTop="10dp">-->
+
+    <!--<TextView--><!--android:id="@+id/tv_question_pinglun"--><!--android:layout_width="wrap_content"--><!--android:layout_height="wrap_content"--><!--android:layout_toLeftOf="@+id/tv_question_form_pinglun"--><!--android:layout_marginRight="10dp"--><!--android:text="355"--><!--android:layout_marginBottom="1dp"--><!--android:textSize="20dp" />-->
+
+    <!--<TextView--><!--android:id="@+id/tv_question_form_pinglun"--><!--android:layout_width="50dp"--><!--android:layout_height="45dp"--><!--android:layout_alignParentRight="true"--><!--android:layout_marginRight="20dp"--><!--android:background="#ffffff"--><!--android:clickable="false"--><!--android:focusable="false"--><!--android:text="@string/message"--><!--android:textSize="30sp" />-->
+
+
+    <!--</RelativeLayout>-->
+
+    <!--</LinearLayout>-->

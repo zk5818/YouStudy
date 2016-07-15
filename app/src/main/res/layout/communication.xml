@@ -1,0 +1,125 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/ll_communication"
+    android:background="#ffffff"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:background="#54FF9f">
+
+        <ImageButton
+            android:id="@+id/ib_pro_homepage"
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:layout_gravity="center_vertical"
+            android:layout_marginLeft="5dp"
+            android:background="#54FF9f"
+
+            android:src="@drawable/ic_left_prev_arrow_default" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+
+            android:gravity="center"
+            android:paddingRight="30dp"
+            android:text="论坛社区"
+            android:textColor="#008B00"
+            android:textSize="24dp" />
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="5dp"
+        android:background="#EEDC82">
+
+    </LinearLayout>
+
+    <RadioGroup
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginLeft="1dp"
+        android:layout_marginRight="1dp"
+        android:background="#EEDC82">
+
+        <RadioButton
+            android:id="@+id/cmm_bt1"
+            style="@style/main_tab_bottom"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:layout_marginLeft="3dp"
+            android:layout_weight="1"
+
+            android:background="#d6d7d7"
+
+            android:gravity="center"
+            android:text="提问板块" />
+
+        <RadioButton
+            android:id="@+id/cmm_bt2"
+            style="@style/main_tab_bottom"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:layout_marginLeft="3dp"
+            android:layout_weight="1"
+            android:background="#d6d7d7"
+            android:gravity="center"
+            android:text="我的帖子" />
+
+        <RadioButton
+            android:id="@+id/cmm_bt3"
+            style="@style/main_tab_bottom"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:layout_marginLeft="3dp"
+            android:layout_weight="1"
+            android:background="#d6d7d7"
+            android:gravity="center"
+            android:onClick="click3"
+            android:text="家长交流" />
+
+        <RadioButton
+            android:id="@+id/cmm_bt4"
+            style="@style/main_tab_bottom"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:layout_marginLeft="3dp"
+            android:layout_marginRight="3dp"
+            android:layout_weight="1"
+            android:background="#d6d7d7"
+            android:gravity="center"
+            android:text="教师经验" />
+
+    </RadioGroup>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="5dp"
+        android:background="#EEDC82">
+
+    </LinearLayout>
+    <android.support.v4.view.ViewPager
+        android:id="@+id/vp_change_items"
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+
+        android:layout_marginLeft="4dp"
+        android:layout_marginRight="4dp">
+
+    </android.support.v4.view.ViewPager>
+
+    <ListView
+        android:id="@+id/contentList"
+        android:layout_width="match_parent"
+        android:layout_height="300dp">
+
+    </ListView>
+
+
+</LinearLayout>
+
+

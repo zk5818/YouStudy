@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RadioGroup xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:id="@+id/rg_menu"
+    >
+
+    <RadioButton
+        android:id="@+id/youxue_helper"
+        style="@style/main_tab_bottom"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:background="#CD00CD"
+        android:text="优学助手"
+        android:textSize="30dp" />
+
+    <RadioButton
+        android:id="@+id/homework_broadcast"
+        style="@style/main_tab_bottom"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="3"
+        android:background="#90EE90"
+        android:text="作业公告"
+        android:textColor="#ffffff"
+        android:textSize="30dp" />
+
+    <RadioButton
+        android:id="@+id/homework_total"
+        style="@style/main_tab_bottom"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:background="#B4CDCD"
+        android:text="各科作业"
+        android:textColor="#9A32CD"
+        android:textSize="30dp" />
+
+    <RadioButton
+        android:id="@+id/course_keypoint"
+        style="@style/main_tab_bottom"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:background="#B4CDCD"
+        android:text="科目重点"
+        android:textColor="#9A32CD"
+        android:textSize="30dp" />
+
+    <RadioButton
+        android:id="@+id/good_homework"
+        style="@style/main_tab_bottom"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:background="#B4CDCD"
+        android:text="优秀作业"
+        android:textColor="#9A32CD"
+        android:textSize="30dp" />
+</RadioGroup>
+
+

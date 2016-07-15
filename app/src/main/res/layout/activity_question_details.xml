@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#ffffff"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="9"
+        android:orientation="vertical">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:background="#54FF9f">
+
+            <ImageButton
+                android:id="@+id/ib_pro_questionfragment"
+                android:layout_width="40dp"
+                android:layout_height="40dp"
+                android:layout_alignParentLeft="true"
+                android:layout_centerVertical="true"
+                android:layout_marginLeft="5dp"
+                android:background="#54FF9f"
+                android:src="@drawable/ic_left_prev_arrow_default" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:gravity="center"
+                android:paddingRight="30dp"
+                android:text="问题详情"
+                android:textColor="#008B00"
+                android:textSize="24dp" />
+
+        </RelativeLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="8dp"
+            android:background="#EEE0E5">
+
+        </LinearLayout>
+
+
+        <ListView
+
+            android:id="@+id/lv_questiondetails_answer"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1">
+
+        </ListView>
+
+
+    </LinearLayout>
+    <LinearLayout
+        android:id="@+id/ll_sendmsg"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:layout_weight="1"
+        android:layout_alignParentBottom="true"
+        android:gravity="center_vertical"
+        android:orientation="horizontal"
+        android:visibility="gone">
+
+        <EditText
+            android:id="@+id/et_send_msg_text"
+            android:layout_width="wrap_content"
+            android:layout_height="40dp"
+            android:layout_marginLeft="5dp"
+            android:layout_weight="15"
+            android:background="@drawable/send_text" />
+
+        <Button
+            android:id="@+id/bt_send_comment"
+            android:layout_width="wrap_content"
+            android:layout_height="40dp"
+            android:layout_marginLeft="3dp"
+            android:layout_marginRight="5dp"
+            android:layout_weight="1"
+            android:background="#F5F5F5"
+            android:text="发送"
+            android:textSize="35dp" />
+
+
+    </LinearLayout>
+
+</LinearLayout>

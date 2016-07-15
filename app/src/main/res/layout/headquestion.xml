@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <ImageView
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:src="@mipmap/userpic" />
+
+            <TextView
+                android:id="@+id/tv_questiondetail_senperson"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="5dp"
+                android:layout_marginTop="10dp"
+                android:text="jack11"
+                android:textSize="24dp" />
+
+            <TextView
+                android:id="@+id/tv_question_detail_title"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="50dp"
+                android:layout_marginTop="10dp"
+                android:text="标题"
+                android:textSize="24dp" />
+        </LinearLayout>
+
+
+        <TextView
+            android:id="@+id/questiondetail_content"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="5dp"
+            android:text="neirong5
+        55555555
+        555555555555555555555555555
+        55555555555555555555
+        555555555555555555555555555555555
+        555555555555555555555555555555555555555555"
+            android:textSize="20dp" />
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:orientation="horizontal"
+            android:paddingTop="10dp">
+
+            <TextView
+                android:id="@+id/tv_qdetails_pinlunshu"
+                android:layout_width="wrap_content"
+                android:layout_height="30dp"
+                android:layout_marginRight="10dp"
+                android:layout_toLeftOf="@+id/tv_qdetails_pinglun"
+                android:text="355"
+                android:textSize="20dp" />
+
+            <TextView
+                android:id="@+id/tv_qdetails_pinglun"
+                android:layout_width="35dp"
+                android:layout_height="40dp"
+                android:layout_alignParentRight="true"
+                android:layout_marginRight="20dp"
+
+                android:clickable="false"
+                android:focusable="false"
+                android:text="@string/message"
+                android:textSize="30sp"
+
+                />
+
+        </RelativeLayout>
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="3dp"
+            android:layout_marginLeft="6dp"
+            android:layout_marginRight="6dp"
+            android:background="#000000" />
+    </LinearLayout>
+
+    <TextView
+
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="10dp"
+        android:text="热心回答："
+        android:textColor="#33ff12"
+        android:textSize="24dp" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0.1dp"
+        android:background="#A52A2A">
+
+    </LinearLayout>
+
+</LinearLayout>

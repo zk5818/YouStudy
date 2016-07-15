@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">YouStudy</string>
+    <string name="message">&#xf27b;</string>
+    <string name="like">&#xf087;</string>
+    <string name="dislike">&#xf088;</string>
+    <string name="sendmsg">&#xf1d9;</string>;
+
+</resources>

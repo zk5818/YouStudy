@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="85dp"
+
+    android:paddingLeft="3dp">
+
+    <ImageView
+        android:id="@+id/personPic"
+        android:layout_marginTop="5dp"
+        android:layout_width="80dp"
+        android:layout_height="76dp"
+        android:background="@mipmap/talkpic" />
+
+    <TextView
+        android:id="@+id/tv_author"
+        android:layout_width="130dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_vertical"
+        android:layout_marginTop="5dp"
+        android:layout_toRightOf="@+id/personPic"
+        android:text="jack"
+        android:textSize="20sp" />
+
+    <TextView
+      android:id="@+id/fomousquotes_title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_toRightOf="@+id/tv_author"
+        android:paddingTop="6dp"
+        android:text="标题:"
+        android:textSize="16sp" />
+    <TextView
+        android:id="@+id/tv_title"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_toRightOf="@+id/fomousquotes_title"
+        android:paddingTop="6dp"
+        android:text="标题1"
+        android:textSize="16sp" />
+
+    <TextView
+        android:id="@+id/tv_context"
+        android:layout_width="match_parent"
+        android:layout_height="50sp"
+        android:layout_below="@+id/tv_author"
+        android:layout_marginLeft="80dp"
+        android:text="neirongsddddd.."
+        android:textColor="#aacccccc"
+        android:textSize="20sp" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:layout_alignParentBottom="true"
+        android:background="#2F4F4F" />
+    <!--<RelativeLayout-->
+    <!--android:layout_width="match_parent"-->
+    <!--android:layout_height="match_parent"-->
+    <!--android:orientation="horizontal"-->
+    <!--android:paddingTop="10dp">-->
+
+    <!--<TextView-->
+    <!--android:id="@+id/tv_author"-->
+    <!--android:layout_width="wrap_content"-->
+    <!--android:layout_height="wrap_content"-->
+    <!--android:layout_gravity="center_vertical"-->
+    <!--android:text="jack"-->
+    <!--android:textSize="16sp" />-->
+
+    <!--<TextView-->
+    <!--android:id="@+id/tv_date"-->
+    <!--android:layout_width="wrap_content"-->
+    <!--android:layout_height="wrap_content"-->
+    <!--android:layout_alignParentRight="true"-->
+    <!--android:layout_centerVertical="true"-->
+    <!--android:layout_marginRight="10dp"-->
+    <!--android:text="2010-1-1"-->
+
+    <!--android:textSize="16sp" />-->
+
+    <!--</RelativeLayout>-->
+
+</RelativeLayout>
